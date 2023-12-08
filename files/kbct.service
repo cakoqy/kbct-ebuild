@@ -1,0 +1,10 @@
+[Unit]
+Description = Keyboard keycode mapping utility
+
+[Service]
+ExecStart = /usr/bin/kbct remap --config /etc/kbct/kbct.yaml
+Restart = always
+Type = simple
+
+[Install]
+WantedBy = multi-user.target

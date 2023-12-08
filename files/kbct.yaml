@@ -1,0 +1,6 @@
+# to get device names, execute `kbct list-devices`
+- keyboards: [ "ELECOM TrackBall Mouse DEFT Pro TrackBall Mouse" ]
+  keymap:
+    btn_back: btn_middle
+    btn_task: btn_middle
+    btn_forward: btn_left
